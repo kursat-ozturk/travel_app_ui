@@ -23,48 +23,45 @@ class CategoryModel {
 }
 
 List<ProductModel> popularList = [
-  ProductModel(
-      image: "images/image1.jpg", name: "Best Of Maiden's Tower ", price: 50),
-  ProductModel(
-      image: "images/image2.jpg", name: "Best Of Istanbul ", price: 700),
-  ProductModel(
-      image: "images/image3.jpg", name: "Best Of Tajj Malah ", price: 100),
+  ProductModel(image: "images/image1.jpg", name: "Maiden's Tower ", price: 50),
+  ProductModel(image: "images/image2.jpg", name: "Tours", price: 700),
+  ProductModel(image: "images/image3.jpg", name: "Booking", price: 100),
 ];
 
 List<CategoryModel> singleProductImgList = [
   CategoryModel(
     image: "images/image4.jpg",
-    name: "Sofa",
+    name: "Monuments",
   ),
   CategoryModel(
     image: "images/image5.jpg",
-    name: "Chair",
+    name: "Locations",
   ),
   CategoryModel(
     image: "images/image6.jpg",
-    name: "Table",
+    name: "Tickets",
   ),
   CategoryModel(
     image: "images/image7.jpg",
-    name: "Wall Shelf",
+    name: "Tours",
   ),
 ];
 List<CategoryModel> recommend = [
   CategoryModel(
     image: "images/image9.jpg",
-    name: "Sofa",
+    name: "Suggestions",
   ),
   CategoryModel(
     image: "images/image8.jpg",
-    name: "Chair",
+    name: "City",
   ),
   CategoryModel(
     image: "images/image7.jpg",
-    name: "Table",
+    name: "Tours",
   ),
   CategoryModel(
     image: "images/image6.jpg",
-    name: "Wall Shelf",
+    name: "Tickets",
   ),
 ];
 
